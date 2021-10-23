@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58884B172723E74400BABA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58884B162723E74400BABA46 /* AppDelegate.swift */; };
+		58884B192723E74400BABA46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58884B182723E74400BABA46 /* SceneDelegate.swift */; };
+		58884B1B2723E74400BABA46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58884B1A2723E74400BABA46 /* ViewController.swift */; };
+		58884B1E2723E74400BABA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58884B1C2723E74400BABA46 /* Main.storyboard */; };
+		58884B202723E76200BABA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58884B1F2723E76200BABA46 /* Assets.xcassets */; };
+		58884B232723E76200BABA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58884B212723E76200BABA46 /* LaunchScreen.storyboard */; };
+		5898579A2723F71F008D5C9C /* objetoIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589857992723F71F008D5C9C /* objetoIMC.swift */; };
+		5898579D2723F72C008D5C9C /* cerebroIMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898579C2723F72C008D5C9C /* cerebroIMC.swift */; };
+		589857A027240490008D5C9C /* ResultadooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898579F27240490008D5C9C /* ResultadooViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58884B132723E74400BABA46 /* calculadora IMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculadora IMC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58884B162723E74400BABA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58884B182723E74400BABA46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58884B1A2723E74400BABA46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58884B1D2723E74400BABA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58884B1F2723E76200BABA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58884B222723E76200BABA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58884B242723E76200BABA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589857992723F71F008D5C9C /* objetoIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objetoIMC.swift; sourceTree = "<group>"; };
+		5898579C2723F72C008D5C9C /* cerebroIMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerebroIMC.swift; sourceTree = "<group>"; };
+		5898579F27240490008D5C9C /* ResultadooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadooViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58884B102723E74400BABA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58884B0A2723E74400BABA46 = {
+			isa = PBXGroup;
+			children = (
+				58884B152723E74400BABA46 /* calculadora IMC */,
+				58884B142723E74400BABA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58884B142723E74400BABA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58884B132723E74400BABA46 /* calculadora IMC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58884B152723E74400BABA46 /* calculadora IMC */ = {
+			isa = PBXGroup;
+			children = (
+				58884B162723E74400BABA46 /* AppDelegate.swift */,
+				58884B182723E74400BABA46 /* SceneDelegate.swift */,
+				58884B1A2723E74400BABA46 /* ViewController.swift */,
+				58884B1C2723E74400BABA46 /* Main.storyboard */,
+				58884B1F2723E76200BABA46 /* Assets.xcassets */,
+				58884B212723E76200BABA46 /* LaunchScreen.storyboard */,
+				58884B242723E76200BABA46 /* Info.plist */,
+				589857992723F71F008D5C9C /* objetoIMC.swift */,
+				5898579C2723F72C008D5C9C /* cerebroIMC.swift */,
+				5898579F27240490008D5C9C /* ResultadooViewController.swift */,
+			);
+			path = "calculadora IMC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58884B122723E74400BABA46 /* calculadora IMC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58884B272723E76200BABA46 /* Build configuration list for PBXNativeTarget "calculadora IMC" */;
+			buildPhases = (
+				58884B0F2723E74400BABA46 /* Sources */,
+				58884B102723E74400BABA46 /* Frameworks */,
+				58884B112723E74400BABA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calculadora IMC";
+			productName = "calculadora IMC";
+			productReference = 58884B132723E74400BABA46 /* calculadora IMC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58884B0B2723E74400BABA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					58884B122723E74400BABA46 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 58884B0E2723E74400BABA46 /* Build configuration list for PBXProject "calculadora IMC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58884B0A2723E74400BABA46;
+			productRefGroup = 58884B142723E74400BABA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58884B122723E74400BABA46 /* calculadora IMC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58884B112723E74400BABA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58884B232723E76200BABA46 /* LaunchScreen.storyboard in Resources */,
+				58884B202723E76200BABA46 /* Assets.xcassets in Resources */,
+				58884B1E2723E74400BABA46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58884B0F2723E74400BABA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898579D2723F72C008D5C9C /* cerebroIMC.swift in Sources */,
+				58884B1B2723E74400BABA46 /* ViewController.swift in Sources */,
+				589857A027240490008D5C9C /* ResultadooViewController.swift in Sources */,
+				58884B172723E74400BABA46 /* AppDelegate.swift in Sources */,
+				5898579A2723F71F008D5C9C /* objetoIMC.swift in Sources */,
+				58884B192723E74400BABA46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58884B1C2723E74400BABA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58884B1D2723E74400BABA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58884B212723E76200BABA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58884B222723E76200BABA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58884B252723E76200BABA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58884B262723E76200BABA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58884B282723E76200BABA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "calculadora IMC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programacion.movil2.calculadora-IMC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58884B292723E76200BABA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "calculadora IMC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programacion.movil2.calculadora-IMC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58884B0E2723E74400BABA46 /* Build configuration list for PBXProject "calculadora IMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58884B252723E76200BABA46 /* Debug */,
+				58884B262723E76200BABA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58884B272723E76200BABA46 /* Build configuration list for PBXNativeTarget "calculadora IMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58884B282723E76200BABA46 /* Debug */,
+				58884B292723E76200BABA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58884B0B2723E74400BABA46 /* Project object */;
+}
