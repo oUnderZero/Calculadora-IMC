@@ -23,7 +23,7 @@ struct cerebroIMC {
         if (alturam <= 1.62) {
             msj2 = "Su rango de peso saludable sugerido es de 43 a 58 kg.";
            
-        } else if (alturam >= 1.65 && alturam <= 1.72) {
+        } else if (alturam >= 1.63 && alturam <= 1.72) {
             msj2 = "Su rango de peso saludable sugerido es de 55 a 74 kg.";
           
 
@@ -38,18 +38,18 @@ struct cerebroIMC {
         }
 
         if valorIMC < 18.5 {
-            imc = objetoIMC(valor: valorIMC, mensaje: "Probabilidad de anemia", mensaje2: msj2!, color:  #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), imagen: UIImage(systemName: "1"))
+            imc = objetoIMC(valor: valorIMC, mensaje: "Probabilidad de anemia", mensaje2: msj2!, color:  #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), imagen: UIImage(named: "1"))
             print(valorIMC)
         }
         else if valorIMC < 24.9 {
-            imc = objetoIMC(valor: valorIMC, mensaje: "Tu IMC es noraml, Felicidades!", mensaje2: msj2!, color: #colorLiteral(red: 0.764705896, green: 0.250980401, blue: 0.9490196347, alpha: 1), imagen: UIImage(systemName: "2"))
+            imc = objetoIMC(valor: valorIMC, mensaje: "Tu IMC es noraml, Felicidades!", mensaje2: msj2!, color: #colorLiteral(red: 0.764705896, green: 0.250980401, blue: 0.9490196347, alpha: 1), imagen: UIImage(named: "2"))
             print(valorIMC)
             
         } else if valorIMC < 29.9 {
-            imc = objetoIMC(valor: valorIMC, mensaje: "Tienes sobrepeso atencion!", mensaje2: msj2!, color: #colorLiteral(red: 0.764705896, green: 0.250980401, blue: 0.9490196347, alpha: 1), imagen: UIImage(systemName: "3"))
+            imc = objetoIMC(valor: valorIMC, mensaje: "Tienes sobrepeso atencion!", mensaje2: msj2!, color: #colorLiteral(red: 0.764705896, green: 0.250980401, blue: 0.9490196347, alpha: 1), imagen: UIImage(named: "3"))
             print(valorIMC)
         } else {
-            imc = objetoIMC(valor: valorIMC, mensaje: "Tienes obesidad ", mensaje2: msj2!, color: #colorLiteral(red: 0.764705896, green: 0.250980401, blue: 0.9490196347, alpha: 1), imagen: UIImage(systemName: "4"))
+            imc = objetoIMC(valor: valorIMC, mensaje: "Tienes obesidad ", mensaje2: msj2!, color: #colorLiteral(red: 0.764705896, green: 0.250980401, blue: 0.9490196347, alpha: 1), imagen: UIImage(named: "4"))
             print(valorIMC)
         }
     }
